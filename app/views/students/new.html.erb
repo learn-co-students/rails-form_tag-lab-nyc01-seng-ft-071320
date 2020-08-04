@@ -13,6 +13,6 @@
   
   <%= submit_tag "Submit Student" %>
   
-  <%= Student.all.last %>
+  <%= session[:current_student]["first_name"] %>
 
 <% end %>
